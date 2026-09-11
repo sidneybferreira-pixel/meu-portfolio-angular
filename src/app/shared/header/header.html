@@ -1,6 +1,26 @@
 <nav>
-  <a routerLink="/sobre">Sobre Mim</a>
-  <a routerLink="/objetivo-profissional">Objetivo Profissional</a>
-  <a routerLink="/formacao-academica">Formação Acadêmica</a>
-  <a routerLink="/habilidades">Habilidades</a>
+  <a
+    routerLink="/sobre"
+    routerLinkActive="ativo"
+    [routerLinkActiveOptions]="{ exact: true }">
+    Sobre Mim
+  </a>
+
+  <a
+    routerLink="/objetivo-profissional"
+    routerLinkActive="ativo">
+    Objetivo Profissional
+  </a>
+
+  <a
+    routerLink="/formacao-academica"
+    routerLinkActive="ativo">
+    Formação Acadêmica
+  </a>
+
+  <a
+    routerLink="/habilidades"
+    routerLinkActive="ativo">
+    Habilidades
+  </a>
 </nav>
